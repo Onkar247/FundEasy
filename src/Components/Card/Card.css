@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body,
+#root {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+.root-container {
+    width: 100%;
+    height: 100%;
+    background-color:rgb(129, 96, 129);
+}
+
+.content{
+    background-color:rgb(129, 96, 129);
+    /* background-color: burlywood; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding:30px;
+    overflow-y: scroll;
+}
+
+
+ .card{
+    position: relative;
+    top:20vh;
+    width:25vw;
+    height:40vh;
+    border-radius:15px;
+    padding-top: 0px;
+    /* margin-top: 50px; */
+
+}
+
+img{
+    clear: both;
+    margin-left:3.5em;
+}
+
+.details{
+     clear: left;
+}
+
+.details h2{
+    padding: 0px;
+    line-height: 1;
+    text-align: center;
+}
+
+.grow{
+    cursor: pointer;
+}

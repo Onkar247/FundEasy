@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body,
+#root {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.whole{
+    background-color:rgb(129, 96, 129);
+    width: 100vw;
+    height:100vh;
+}
+
+.otp{
+    /* background-color: blue; */
+    background-color: whitesmoke;
+    border:1px solid black;
+    border-radius: 20px;
+    display: block;
+    height:40%;
+    width: 40vw;
+    text-align: center;
+    padding: 20px;
+    margin: 100px auto;
+}
+
+
+.otp input{
+    height:8vh;
+    width:25vw;
+    padding: 10px;
+    font-size: 1.5em;
+    margin: 30px 12px auto auto;
+    
+    border: 1px solid black;
+   
+}
+
+.otp .Enter{
+    background-color: transparent;
+}
+
+.otp input::placeholder{
+    padding-left: 10px;
+}
+
+.otp .Submit{
+    background-color:blue;
+    border:transparent;  
+    color: rgba(228, 218, 179,1);
+    padding:0px 8px;
+    font-size:1.5em;
+    border-radius: 10px;
+    height:8vh;
+    width:25vw;
+}
+
+.Submit:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}

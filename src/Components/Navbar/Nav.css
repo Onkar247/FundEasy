@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+html,
+body,
+#root {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.title{
+    background-color:black;
+    color: rgb(68, 43, 5);
+ }
+
+.title::after{
+   content:'';
+   display:inline-block;
+   clear:both;
+}
+
+.name,.navbar{
+    display: inline-block;
+}
+
+font h2{
+    margin-top: 2vh;
+    margin-left: 3vw;
+}
+
+ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 1vw;
+}
+
+.navbar{
+    margin-top: 0;
+    margin-left:35vw;
+}
+
+
+.icon img{
+    position: relative;
+    top: 20px;
+    padding:0px 0px 0px 0px;
+    margin:0px 0px 0px 0px;
+}
+
+.navbar li:hover{
+    color: rgb(175, 119, 14);
+    /* color:rgb(153, 116, 46); */
+    cursor: pointer;
+}
+
+.Notify{
+    position: absolute;
+    display: block;
+    /* margin-top:12px; */
+    color:black;
+    background-color: white;
+    width:25vw;
+    height:60vh;
+    /* visibility: hidden; */
+    /* margin-left: 73vw; */
+    right:5vw;
+    border-radius: 5px;
+    z-index: 20;
+}
+
+.Notify ol{
+    list-style-type: none;
+    line-height: normal;
+    /* padding: 10px; */
+    font-size: 1.5em;
+    /* margin-left:3vw; */
+}
+
+.Notify li{
+    margin-left: 1vw;
+}
+
+
+.Notify .message:hover{
+    padding: 0px;
+    margin: 0px;
+    background-color: gray;
+}
